@@ -1,6 +1,15 @@
 #include <iostream>
-
-int main() {
-    std::cout << "Hello, Worid!" << std::endl;
+ 
+ int main() {
+    int age = 37;
+    double height = 300;
+    std::string name = "gay";
+    bool is_student = false;
+    std::cout << "姓名:" << name << std::endl;
+    std::cout << "身高:" << height << std::endl;
+    std::cout << "年齡:" << age << std::endl;
+    std::cout << "是否為學生:" << is_student << std::endl;
+    
+    
     return 0;
-    }
+}
