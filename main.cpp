@@ -1,13 +1,15 @@
-#include <stdio.h>
+#include <iostream>
 
 int main()
 {
-
-    std::cout << "Iamgod台股大跌" << std::endl;
-    std::cout << "I am god 台 股 大 跌" << std::endl;
-    std::cout << "Iamgod台股大跌" << std::endl;
-    std::cout << "Iamgod台股大跌" << std::endl;
-    std::cout << "Iamgod台股大跌" << std::endl;
-    std::cout << "Iamgod台股大跌" << std::endl;
+    int a = 5 + 3;
+    int b = 5 - 3;
+    int c = 5 * 3;
+    int d = 5 / 3;
+    double e = 5 / 3.0;
+    int f = 5 % 3;
+    
+    std::cout << a << " " << b << " " << c << " " << d << " " << e << " " << f << " ";
+    
     return 0;
 }
