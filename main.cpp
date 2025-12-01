@@ -2,14 +2,13 @@
 
 int main()
 {
-    std::cout << "請輸入年齡";
-    int age;
-    std::cin >> age;
-    if(age >= 18) {
-        std::cout << "你可以觀看xxxxxo限制級電影";
+    int sum = 0;
+    for(int i=1;i<6;i++) {
+        std::cout << "現在i值:" << i << std::endl;
+        sum = sum + i;
+        std::cout << "回圈內 SUM值:" << sum << std::endl;
     }
-    if (age < 18) {
-        std::cout << "你還是好好讀書吧";
-    }
+    std::cout << "1+..+5 總合為:" << sum;
+    
     return 0;
 }
