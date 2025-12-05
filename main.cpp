@@ -2,13 +2,12 @@
 
 int main()
 {
-    int sum = 0;
-    for(int i=1;i<6;i++) {
-        std::cout << "現在i值:" << i << std::endl;
-        sum = sum + i;
-        std::cout << "回圈內 SUM值:" << sum << std::endl;
+    for (int i=1;i<9;i++) {
+        for (int j=1;j<9;j++) {
+            std::cout << i << "*" << j << "=" << i*j << "\t";
+        }
+        std::cout << std::endl;
     }
-    std::cout << "1+..+5 總合為:" << sum;
-    
+
     return 0;
 }
