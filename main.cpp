@@ -1,15 +1,15 @@
 #include <iostream>
-using namespace std;
 
 int main()
 {
-    int subject = 5;
-    int grade[5] = {95,10,30,80,60};
-    int sum = 0;
-    for (int i=0; i<5; i++){
-        sum = sum + grade[i];
+    int score[3] = {97, 66, 47};
+    int temp;
+    
+    temp = score[0];
+    score[0] = score[2];
+    score[2] = temp;
+    for (int i=0;i<3;i++) {
+        std::cout << score[i] << " ";
     }
-    int average = sum/subject;
-    cout << "段考平均:" << average;
     return 0;
 }
